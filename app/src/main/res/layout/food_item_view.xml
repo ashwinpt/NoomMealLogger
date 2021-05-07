@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/food_item_image_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"
+        android:src="@drawable/knife_and_fork"
+        android:contentDescription="@string/image_of_food_item" />
+
+    <TextView
+        android:id="@+id/food_item_name_view"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        tools:text = "Bananas"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+</LinearLayout>

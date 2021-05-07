@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Noom Meal Logger</string>
+    <string name="image_of_food_item">Image of food item</string>
+    <string name="search_for_food_item">Search for food item...</string>
+</resources>
